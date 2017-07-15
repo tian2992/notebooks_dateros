@@ -29,7 +29,15 @@ El instalador para Mac OS asocia Python a la extension .py En Linux asegura de i
 El segundo paso y uno de los grandes atractivos del ecosistema Python es el manejo de paquetes y dependencias. Actualmente existen varios instaladores de paquetes, que utilizan una estructura a común. Setuptools, Pip y Conda. Es también importante notar que Python permite la opción de instalarse dentro de un ambiente virtual, virtualenv. Virtualenv permite empaquetar una aplicación y sus dependencias en un espacio aislado, permitiéndote instalar versiones distintas de paquetes varios o congelar un proyecto a una cierta versión. 
 
 ## Paquetes Varios
-Entre los paquetes mas usados está Numpy, software de manejo numérico. Pandas, Numpy, scypi, jupyter.
+Entre los paquetes mas usados está Numpy, software de manejo numérico. Pandas, NumPy, jupyter.
+
+NumPy y Pandas son librerias que permiten manipulacion de datos. 
+
+
+Jupyter Notebooks te permite crear documentos que incluyen código, matemática, visualizaciones y texto. Soporta mas de 40 lenguajes en particular Python, R y Julia. También se pueden crear widgets interactivos.
+
+
+matplotlib, seaborn 
 
 # Anaonda
 
