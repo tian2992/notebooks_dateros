@@ -1,12 +1,34 @@
 Saludos compañeros, bienvenidos a este micro-post respecto a la instalación y uso de Python para análisis de datos.
 
+# Python
 Python es un lenguaje de programación, el cual es interpretado por un programa ejecutable, en el caso de Windows, un python.exe que ejecuta archivos .py (archivos de texto conteniendo codigo fuente).
 
-El primer paso es obtener entonces una distribución de Python. Actualmente existen dos versiones, Python 2 y Python 3. Python 3 es la versión actual y más reciente. A pesar de que hay aún algunas librerias que no han actualizado, la gran mayoría está disponible para ambas versiones.
+```python
+# Este es un comentario
+1 + 2 # esta es una operación valida, retorna 2
+print("Hola Mundo!")
+import antigravity
+```
+
+El primer paso es obtener entonces una instalación de Python. Actualmente existen dos versiones, Python 2 y Python 3. Python 3 es la versión actual y más reciente. A pesar de que hay aún algunas librerias que no han actualizado, la gran mayoría está disponible para ambas versiones.
+
+## Python
+
+Puedes descargar Python de el sitio oficial. https://www.python.org/downloads/
+
+### Windows
+
+En Windows el instalador asocia la extension ```.py```, instala el editor de texto IDLE, e instala la terminal de Python. Puedes compobar tu instalación de tus rutas mediante presionar Windows + R y tecleando ahi python.exe.
+
+# Ecosistema
 
 El segundo paso y uno de los grandes atractivos del ecosistema Python es el manejo de paquetes y dependencias. Actualmente existen varios instaladores de paquetes, que utilizan una estructura a común. Setuptools, Pip y Conda. Es también importante notar que Python permite la opción de instalarse dentro de un ambiente virtual, virtualenv. Virtualenv permite empaquetar una aplicación y sus dependencias en un espacio aislado, permitiéndote instalar versiones distintas de paquetes varios o congelar un proyecto a una cierta versión. 
 
-Pandas, numpy, scypi, jupyter.
+## Paquetes Varios
+Entre los paquetes mas usados está Numpy, software de manejo numérico. Pandas, Numpy, scypi, jupyter.
 
-Conda es una distribución de Python, que incluye una variedad de paquetes muy útiles. Conda incluye virtualenv, pandas, jupyter y más. 
-Conda es gratuito.
+# Conda
+
+Conda es una distribución de paquetes cientificos, entre ellos, Python. Conda para Python incluye una variedad de paquetes muy útiles, Virtualenv, pandas, jupyter y más. 
+Miniconda es una version básica, que unicamente incluye a conda, Python y otros paquetes básicos. Anaconda es la versión completa e incluye mas de que 150 paquetes. `conda install` es el instalador de paquetes que permite utilizar esto paquetes
+
