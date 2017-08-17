@@ -21,7 +21,7 @@ Hay bastante discurso filosofico respecto a visualizacion vs infografia, uno de 
 Descartes tuvo una de las mayores revelaciones al definir lo que conocemos como plano cartesiano, simplemente representar información en dos dimensiones se presta naturalmente a graficar X y Y, pensar en algunas de las combinaciones posibles de variables que podemos correlacionar nos da ideas para contrastar.
 
 ## Tiempo
-Cada vez más, las animaciones se vuelven mas poderosas, podemos construir visualizaciones que mueven a lo largo del tiempo o que representan en un marco de tiempo a escala la realidad (1 dia = 1 seg, por ejemplo...). Pensar en visualizaciones que integran el tiempo es pensar en animaciones, y para esto recursos, como [los "doce](https://en.wikipedia.org/wiki/12_basic_principles_of_animation) [principios de la animación"](https://es.wikipedia.org/wiki/Doce_principios_(animación) te pueden ayudar a tener en cuenta el movimiento de forma mas natural, puedes inspirarte en el [excelente trabajo del maestro Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo) y pensar si vale la pena integrar el tiempo en tu visualización. Por favor no te olvides de quienes no pueden acceder a multimedios basados en tiempo (videos, animaciones, versiones impresas, etc).
+Cada vez más, las animaciones se vuelven mas poderosas, podemos construir visualizaciones que mueven a lo largo del tiempo o que representan en un marco de tiempo a escala la realidad (1 dia = 1 seg, por ejemplo...). Pensar en visualizaciones que integran el tiempo es pensar en animaciones, y para esto recursos, como [los doce](https://en.wikipedia.org/wiki/12_basic_principles_of_animation) [principios de la animación](https://es.wikipedia.org/wiki/Doce_principios_(animación) te pueden ayudar a tener en cuenta el movimiento de forma mas natural, puedes inspirarte en el [excelente trabajo del maestro Hans Rosling](https://www.youtube.com/watch?v=jbkSRLYSojo) y pensar si vale la pena integrar el tiempo en tu visualización. Por favor no te olvides de quienes no pueden acceder a multimedios basados en tiempo (videos, animaciones, versiones impresas, etc).
 
 ## Escalas, series y otros artilugios
 
@@ -38,6 +38,12 @@ Herramientas como Tableau, [Eclipse BIRT](http://www.eclipse.org/birt/) , [Apach
 
 ### Frameworks y APIs
 Aunque no queria hacer particularmente tecnico este post, existen varias librerias que pueden ayudarte a generar graficos de formas nuevas e interesantes.
+
+Existen librerias de manipulación y transformación como D3.js, que permiten la creación de graficos creando elementos del arbol DOM, y manipulandolos acorde a un mapeo entre estos y las estructuras de datos, esto permite crear visualizaciones muy avanzadas y poderosas, con muy poco esfuerzo (si ya se sabe manejar correctamente). 
+
+Otra libreria muy útil es Seaborn, la cual convierte graficos estandar de matplotlib a cosas mas agradables a la vista. Además tambien define ciertas clases de visualización avanzada que van mas allá de lo que matplotlib hace por defecto.
+
+
 
 D3, Bokeh, Seaborn, (QUE MAS?)
 
