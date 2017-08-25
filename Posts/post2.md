@@ -11,7 +11,7 @@ En general, podemos clasificar visualizaciones de otras cosas (como infográfico
 * Únicamente mapean una información a una propiedad visual, por ejemplo una tabla no es una visualización ya que solo trasladar la información posicional de los ejes en una vista tabular no nos dice nada.
 * Busca comunicar datos, no como una visualización musical de un reproductor multimedios.
 
-Hay bastante discurso filosófico respecto a visualización vs infografia, uno de los mejores recursos es el artículo de ASDF
+Hay bastante discurso filosófico respecto a visualización vs infografia, uno de los mejores recursos es el artículo de Kosara.
 
 
 ## Dimensiones
@@ -52,7 +52,7 @@ Entre las herramientas mentales, existe el set de tarjetas de [Estrategias Oblic
 
 ### Herramientas todo-en-uno
 Herramientas como Tableau, [Eclipse BIRT](http://www.eclipse.org/birt/) , [Apache Superset](https://github.com/apache/incubator-superset), [Metabase](
-https://github.com/metabase/metabase) y otros permiten manipular tus datos de forma fácil sin necesidad de realizar tareas laboriosas. Estas herramientas pueden ser muy útiles, para darte una idea de como los datos estan distribuidos y de pensar en cómo poder utilizarlos para dar a conocer un punto.
+https://github.com/metabase/metabase), [IBM Pixiedust](https://ibm-watson-data-lab.github.io/pixiedust/) y otros permiten manipular tus datos de forma fácil sin necesidad de realizar tareas laboriosas. Estas herramientas pueden ser muy útiles, para darte una idea de como los datos estan distribuidos y de pensar en cómo poder utilizarlos para dar a conocer un punto.
 
 ### Frameworks y APIs
 Aunque no quería hacer particularmente técnico este post, existen varias librerías que pueden ayudarte a generar gráficos de formas nuevas e interesantes.
@@ -114,5 +114,9 @@ En general, al pensar en una visualización de datos se busca visualizar una sit
 
 ## Otros Artículos interesantes
 https://kosara.net/publications/Kosara_IV_2007.html
+
+http://www.sthda.com/english/wiki/be-awesome-in-ggplot2-a-practical-guide-to-be-highly-effective-r-software-and-data-visualization
+
+
 
 https://eagereyes.org/criticism/definition-of-visualization
