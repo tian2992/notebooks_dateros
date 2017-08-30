@@ -1,0 +1,4 @@
+.mode csv
+.separator "\t"
+CREATE TABLE estudios_ambientales(Periodo, Numero_Estudio, Nombre_Proyecto, Representante_Legal, Direccion_Proyecto, Fecha_Captura, Fecha_Resolucion, Fecha_Notificacion, Fecha_Dictamen);
+.import ESTUDIOS_AMB.tsv estudios_ambientales
